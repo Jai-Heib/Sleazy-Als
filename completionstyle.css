@@ -1,0 +1,92 @@
+body {
+	background-color: rgb(255, 201, 0);
+}
+	h1{
+		font-size:72px;
+		font-family: "Brush Script MT";
+		color: rgb(255, 123, 0);
+	}
+	p{
+		color: rgb(255, 123, 0);
+		font-size:30px;
+	}
+	button{
+		background-color:red;
+		color:orange;
+		font-size:38px;
+		padding: 15px 32px;
+		cursor:pointer;
+	}
+	div{
+		background-color:red;
+		color:orange;
+		font-size:38px;
+		padding: 15px 32px;
+		border: solid 2px black;
+	}
+	.popup {
+	  position: relative;
+	  display: inline-block;
+	  cursor: pointer;
+	}
+	.popup .popuptext {
+	  visibility: hidden;
+	  width: 160px;
+	  background-color: #555;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 8px 0;
+	  position: absolute;
+	  z-index: 1;
+	  bottom: 125%;
+	  left: 50%;
+	  margin-left: -80px;
+			font-size:26px;
+	}
+	.popup .popuptext::after {
+	  content: "";
+	  position: absolute;
+	  top: 100%;
+	  left: 50%;
+	  margin-left: -5px;
+	  border-width: 5px;
+	  border-style: solid;
+	  border-color: #555 transparent transparent transparent;
+	}
+	.popup .show {
+	  visibility: visible;
+	  -webkit-animation: fadeIn 1s;
+	  animation: fadeIn 1s
+	}
+	@-webkit-keyframes fadeIn {
+	  from {opacity: 0;}
+	  to {opacity: 1;}
+	}
+
+	@keyframes fadeIn {
+	  from {opacity: 0;}
+	  to {opacity:1 ;}
+	}
+	img{
+		width:571px;
+		height:400px;
+	}
+	button2 {
+		background-color:red;
+		color:orange;
+		font-size:38px;
+		padding: 15px 50px;
+		border: 2px solid black;
+		margin-right: 500px;
+		cursor:pointer;
+	}
+	button3 {
+		background-color:red;
+		color:orange;
+		font-size:38px;
+		padding: 15px 50px;
+		border: 2px solid black;
+			margin-left: 300px;
+			cursor:pointer;
+	}

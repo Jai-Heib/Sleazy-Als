@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+		<html>
+		<head>
+			<title>Place your order!</title>
+			<link rel="stylesheet" href="completionstyle.css">
+		</head>
+		<body>
+			<center>
+				<h1>Place your order!</h1>
+				<p>Now we just need some information to deliver your delicious pizza. You can click the button below to automatically find your location, or you can manually enter some information below it.</p>
+				<br>
+						<p id="demo"></p>
+				<button onclick="getLocation()">Get Location</button>
+				<script>
+				function myFunction() {
+				  window.location.href = "end.html";
+				}
+				</script>
+				<script>
+				var x = document.getElementById("demo");
+
+				function getLocation() {
+				  if (navigator.geolocation) {
+				    navigator.geolocation.getCurrentPosition(showPosition);
+				  } else { 
+				    x.innerHTML = "Geolocation is not supported by this browser.";
+				  }
+				}
+
+				function showPosition(position) {
+				  x.innerHTML = "Latitude: " + position.coords.latitude + 
+					"<br>Longitude: " + position.coords.longitude + "<br>Please wait";
+						setTimeout(myFunction, 10000);
+				}
+				</script>
+				<br><br><br>
+				<form>
+				  <label for="fname">First name:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Last name:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Continent:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Country:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">City:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Town/Suburb:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">House number:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Room you are in:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Credit card number:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Expiration date:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">The three numbers on the back:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Social security number:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Name of your first pet:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+						
+				  <label for="fname">Name of your first child:</label><br>
+				  <input type="text" id="fname" name="fname"><br><br><br><br>
+				
+		  <label for="fname">Favourite colour:</label><br>
+		  <input type="text" id="fname" name="fname"><br><br><br><br>
+				
+		  <label for="fname">Would you like to sign up for our newsletter?:</label><br>
+		  <input type="text" id="fname" name="fname"><br><br><br><br>
+				
+		  <label for="fname">Can we make your pizza better? (it kinda sucks):</label><br>
+		  <input type="text" id="fname" name="fname"><br><br><br><br>
+				
+		  <label for="fname">What is god?:</label><br>
+		  <input type="text" id="fname" name="fname"><br><br><br><br>
+				
+	<p2>Do you like Sleazy Al's? (Select one)</p2> <br>
+	<input type="radio" id="html" name="fav_language" value="HTML">
+	  <label for="html">Yes</label><br>
+	  <input type="radio" id="css" name="fav_language" value="CSS">
+	  <label for="css">Of course!</label><br>
+	  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	  <label for="javascript">ABSOLUTELY!</label>
+			<br> </form> <br><br>
+			<button onclick="document.location='end.html'">Place order</button>
+		</center>
+	</body>
+	</html>
+		

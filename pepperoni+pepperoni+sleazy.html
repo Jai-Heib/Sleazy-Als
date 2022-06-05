@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Make Your Pizza!</title>
+	<link rel="stylesheet" href="completionstyle.css">
+</head>
+<body>
+	<center>
+		<h1>Congratulations! Your pizza is now complete.</h1>
+		<p>What a great pizza! You can now either get your pizza delivered or have it rated by our expert Sleazy Critics!
+			<br><br><br>
+			<button onclick="document.location='order.html'">Order Now!</button>
+			<br>
+						<div class="popup" onclick="myFunction()">Rate my pizza!
+			  <span class="popuptext" id="myPopup">Sorry cheif, but the meat kinda outbalances the sleaze here.</span>
+			</div>
+			<br>
+			<img src="Pepperoni+Pepperoni+Sleazy.png">
+			
+<script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+<br>
+						<button2 onclick="document.location='buildhome.html'">Start Over</button2>
+						<button3 onclick="document.location='homepage.html'">Back to home</button3>
+</center>
+</body>
+</html>

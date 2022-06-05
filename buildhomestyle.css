@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(255, 201, 0);
+}
+h1{
+	font-size:72px;
+	font-family: "Brush Script MT";
+	color: rgb(255, 123, 0);
+}
+p{
+	color:white;
+	font-size:12px;
+}
+button{
+	background-color:red;
+	color:orange;
+	font-size:38px;
+	padding: 15px 32px;
+	cursor:pointer;
+}
+img{
+	width:571px;
+	height:400px;
+}
+button2 {
+	background-color:red;
+	color:orange;
+	font-size:38px;
+	padding: 15px 50px;
+	border: 2px solid black;
+	margin-right: 500px;
+	cursor:pointer;
+}
+button3 {
+	background-color:red;
+	color:orange;
+	font-size:38px;
+	padding: 15px 50px;
+	border: 2px solid black;
+		margin-left: 300px;
+		cursor:pointer;
+}
